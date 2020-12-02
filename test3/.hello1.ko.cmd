@@ -1,0 +1,1 @@
+cmd_/home/bohdan/Ak_2_BBB/test3/hello1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/bohdan/Ak_2_BBB/test3/hello1.ko /home/bohdan/Ak_2_BBB/test3/hello1.o /home/bohdan/Ak_2_BBB/test3/hello1.mod.o;  true

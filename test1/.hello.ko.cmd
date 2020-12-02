@@ -1,1 +1,1 @@
-cmd_/home/bohdan/AK/examples/test1/hello.ko := ccache arm-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/bohdan/AK/examples/test1/hello.ko /home/bohdan/AK/examples/test1/hello.o /home/bohdan/AK/examples/test1/hello.mod.o ;  true
+cmd_/home/bohdan/Ak_2_BBB/test1/hello.ko := ccache arm-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/bohdan/Ak_2_BBB/test1/hello.ko /home/bohdan/Ak_2_BBB/test1/hello.o /home/bohdan/Ak_2_BBB/test1/hello.mod.o ;  true
